@@ -1,0 +1,211 @@
+	ASSIGNMENT	
+1.Are the HTML tags and elements the same thing?
+No. The starting and ending point parts of an HTML document are HTML Tags.
+Example:<hr>, <img>, <br>
+Elements HTML, enclose the content in between the tags Ex:<p>hello</p>
+
+2. What are tags and attributes in HTML?
+Attribute:
+It always placed in the opening tag of an element.
+Ex:<p color=” blue”>paragraph</p>
+Tag: 
+The starting and ending point parts of an Html document are Html Tags
+Example:<hr>, <img>, <br>
+3. What are void elements in HTML? With Example
+Void elements do not close with end tag
+Ex: <hr> <img> <link> <area> <br>
+4. What are HTML Entities? With Example.
+Html entities is specific symbol code which start with & code
+It defines any symbol like
+Ex: &#169; currency symbol code.
+
+5. What are different types of lists in HTML? With Example
+
+There are three types of lists in html
+
+1.Unorderlist
+
+Ex: It generate symbol like square, Round, Disc etc….
+•	ABC
+•	ABC
+•	ABC
+
+2.Orderlist
+Ex: It generate list like Numbers, Alphabets, Roman Numbers, Series etc….
+I.	123
+II.	123
+III.	123
+3. Description list
+Ex: In this list we can use only Describe the data like.
+Fruits:
+	Apple, Banana, Grapes, Strawberry etc…..
+
+
+
+
+6. What is the 'class' attribute in HTML? With Example.
+Class is an attribute that specifies one or more class names for an HTML element.
+
+Ex:<head>
+<Style>
+Div1{
+Height:300px;
+Width:300px;
+Background-color=Brown;
+}
+div2{
+Height:300px;
+Width: 300px;
+}
+<Body>
+<div class="div1>ZUVERIYA</div>
+<div class="div2">NAVSARKA</div>
+</body>
+
+7. What is the difference between the 'id' attribute and the 'class' attribute of HTML elements? With Example.
+The only difference, between id & class is id is given only time while class we use multiple time.
+<Body>
+<div class="div1" id="id1" div3>ZUVI</div>
+<div class="div2" id="id2" div3>NAV</div>
+</body>
+8. What are the various formatting tags in HTML?
+<b> Bold text
+<strong> Important text
+<emp> Emphasised text
+<i> Italic text
+<mark> Marked text
+<small> Smaller text
+<del> Deleted text
+<ins> Inserted text
+<sub> Subscript text
+<sup> Superscript text
+<u>underline
+9. How is Cell Padding different from Cell Spacing? With Example
+Cell padding is the space between the cell edges and the cell content.
+Cellspacing is specifies the space between cells.
+ 
+10 How can we club two or With Example rows or column into a single row or column in an HTML Table?
+We use the <colspan> & <rowspan> we can merge rows & columns.
+11. What is the difference between a block level element and an inline element?
+A block element always start with new line when we can apply
+Ex:<div>
+Inline element does not start with new line
+Ex:<span>
+12 How to create a Hyperlink in HTML? With Example
+Using <a> anchor tag we can create hyper link.
+<a href=””>Home</a>
+13. What is the use of an iframe tag? With Example
+iframe tag use when we open another new link, text, image, location, video.
+Ex: <iframe src=””></iframe>
+14. What is the use of a span tag Explain with example?
+Span tag in inline element we can use span tag in div tag but can`t use span tag in div.
+Ex:<div>
+         Hello
+    <span>Hello</span>
+
+
+15. How to insert a picture into a background image of a web page? With Example
+Using image tag we can add background image of web page
+Ex: background-image:url();
+16. How are active links different from normal links?
+In active link we can navigate to another page
+in normal link we can't navigate to another page.
+17. What are the different lagi ta separate sections of trot?
+<br> using this tag we can get text in new line.
+<hr> using this tag we can separate section of text.
+18. What is SVG?
+SVG is semi vector graphic that we can draw rectangle,circle.
+19. What is difference between HTML and XHTML?
+XHTML stands for extensible hypertext markup language which is a connection between HTML (hypertext mark-up language) also at most of the place’s XHTML is considered superior than HTML.
+20.What are logical and physical tags in HTML?
+Logical tags are used to provide information by giving the special importance to the text.
+Ex:<strong>, <q>, <pre>
+Physical tags are used to style the content only.
+Ex:<sup>, <sub>, <small>
+
+CODE:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>document</title>
+</head>
+<body>
+        <table border="1" width="100%" style="text-align: center;">
+            <tr>
+                <td colspan="2"><a href="">Home</a></td>
+                <td colspan="2"><a href="">About</a></td>
+                <td colspan="2"><a href="">Contact</a></td>
+                <td colspan="2"><a href="">Help</a></td>
+                <td colspan="2"><a href="">Store</a></td>
+                <td colspan="3" bgcolor="red"><a href="">Download</a><br>
+                <a href="">App</a></td>
+            </tr>
+        </table>
+            <img src="images/image2.jpg" alt="" width="1500px" height="500px">
+            <h4 style="background-color: pink; text-align: center;margin: 0;">Contact Us</h4>
+            <div class="container">
+            <h1 >Contact US</h1>
+            <div class="overlay"></div>
+            </div>
+                <fieldset>
+                <table border="1" style="border-collapse: collapse; align-items: center;text-align: center; width: 1470px;"bgcolor="skyblue" >
+                    <tr>
+                        <td colspan="2"><label>First Name:</label><input type="text" placeholder="Enter Your First Name"    required></td>
+                      
+                        <td colspan="2"><label>Last Name:</label><input type="text"placeholder="Enter Your Last Name"   required></td>
+                      
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label>Email:</label><input type="email" placeholder="Enter Your Email"  required></td>
+                      
+                        <td colspan="2"><label>Phone No:</label><input type="text" placeholder="Enter Your Phone No"   required></td>
+                      
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label for="">Branch</label>
+                        <droplist>
+                            <select>
+                            <option value="">---Select-----</option>
+                            <option value="">Surat</option>
+                            <option value="">Navsari</option>
+                            <option value="">Baroda</option>
+            
+                       </select>
+                    </droplist></td>
+                        <td colspan="2" style="width: 50px;"><label>Gender:</label>
+                        <input type="radio" name="gen" id="">Male 
+                        <input type="radio" name="gen" id="">Female
+                        <input type="radio" name="gen" id="">Other</td>
+                     </tr>  
+                     <tr>
+                        <td colspan="2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1095.183494803507!2d72.82468983960733!3d21.18151593244036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e6c2d24d613%3A0x5c7ca1ea557092d0!2sTOPS%20Technologies!5e0!3m2!1sen!2sin!4v1707315263943!5m2!1sen!2sin" width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+ <td colspan="2"><iframe width="750" height="440" src="https://www.youtube.com/embed/fW9qx1_X2XI?si=RHLFaUjG0oay4trl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+                     </tr> 
+            </table>
+        </fieldset>
+    </header>
+</body>
+</html>
+<style>
+    .container{
+        margin: 0;
+        background: url(images/image5.jpg);
+        color: white;
+        height:500px;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display:flex;
+    }
+    .overlay{
+
+       background:linear-gradient(to top right,blue,red);
+        opacity: .4;
+        width: 1500px;
+        height: 500px;
+        position: absolute;
+    }
+</style>
+
+
