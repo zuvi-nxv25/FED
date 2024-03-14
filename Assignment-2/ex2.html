@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>welcome to sky</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+</head>
+<body>
+	<header class="header">
+		<div class="header-logo-box">
+			<img src="" alt="" class="header-logo">
+		</div>
+		<nav>
+			<a href="#home">Home</a>
+			<a href="#about">About</a>
+			<a href="#portfolio">Portfolio</a>
+			<a href="#pricing">Pricing</a>
+			<a href="#team">Team</a>
+			<a href="#blog">Blog</a>
+			<a href="#contact">Contact</a>
+		</nav>
+		<div class="header-text-box">
+			<h1 class="header-primary">
+				<span class="heading-primary-main">our clients are our first priority</span>
+				<span class="heading-primary-sub">Welcome to sky</span>
+			</h1>
+			<a href="#" class="btn">Get Started Now</a>
+			<a href="#" class="btn">Learn More</a>
+		</div>
+		 	</header>
+
+</body>
+</html>
+<style>
+    *{
+	margin: 0;
+	padding: 0;
+}
+body{
+	box-sizing: border-box;
+	line-height: 1.7;
+	padding: 16px;
+
+}
+header{
+	height: 95vh;
+	justify-content: center;
+	text-align: center;
+	background:url(images/img1.jpg);
+	background-size: cover;
+	background-position:top;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 83%, 0 100%);
+    
+}
+.header-logo-box{
+	position:absolute;
+	top: 20px;
+	left: 70px;
+}
+.header-logo{
+	height: 35px;
+}
+
+ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right:60px ;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+
+}
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+.header-text-box{
+	position: absolute;
+	top: 20%;
+	left:30%;
+	transform:translate(-50% -50%);
+}
+.header-primary{
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 46px;
+}
+.heading-primary-main{
+	display: block;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+.heading-primary-sub{
+	display: block;
+	font-size: 62px;
+	letter-spacing: 2px;
+}
+
+.btn{
+	text-transform: uppercase;
+	border: 1px solid #fff;
+	padding: 5px 20px;
+	color:#777;
+	background-color: #fff;
+	transition: 0.6s ease;
+	font-size: 18px;
+	text-decoration: none;
+	position: relative;
+	font-size: 16px;
+
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+
+.header ul{
+	position: absolute;
+
+}
+
+.header ul li:hover .sub-menu
+{
+	display: block;
+	position: absolute;
+	background-color: rgb(0,45,117);
+	margin-top: 12px;
+	margin-left: -8px;
+}
+
+.header ul li:hover .sub-menu ul 
+{
+	display: block;
+	margin:6px;
+
+}
+.header ul li:hover .sub-menu ul li
+{
+	width: 75px;
+	padding: 5px;
+	border-bottom: 1px#fff;
+	background: transparent;
+	transition: 0.4s ease;
+	text-align: left;
+	border-radius: 0;
+	
+}
+
+.header ul li:hover .sub-menu ul li:last-child 
+{
+	border-bottom: none;
+}
+nav {
+            background-color:transparent;
+            padding: 10px 0;
+            text-align: center;
+			font-size: 25px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+		nav a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+nav .active a{
+background-color:#fff;
+	color: #000;
+
+}
+</style>
